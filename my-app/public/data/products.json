@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Flow Hoodie",
+    "category": "Apparel",
+    "tag": "Bestseller",
+    "price": 89,
+    "rating": 4.8,
+    "reviews": 312,
+    "description": "Crafted from 100% organic ring-spun cotton. A relaxed silhouette with a brushed interior that gets softer with every wash.",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=800&q=85",
+    "inStock": true,
+    "colors": ["#0f0f0f", "#e8e6df", "#3B6FE8"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "variants": [
+      { "label": "Black / M", "value": "black-m" },
+      { "label": "Cream / M", "value": "cream-m" },
+      { "label": "Blue / M",  "value": "blue-m"  }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Urban Backpack",
+    "category": "Accessories",
+    "tag": "New",
+    "price": 129,
+    "rating": 4.9,
+    "reviews": 218,
+    "description": "Vegetable-tanned canvas with full-grain leather trims. Fits a 16″ laptop, expands to 28 litres, and ages beautifully.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=85",
+    "inStock": true,
+    "colors": ["#4a3728", "#0f0f0f", "#8b7355"],
+    "variants": [
+      { "label": "Brown", "value": "brown" },
+      { "label": "Black", "value": "black" },
+      { "label": "Tan",   "value": "tan"   }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Minimal Watch",
+    "category": "Accessories",
+    "tag": "Sale",
+    "price": 199,
+    "originalPrice": 249,
+    "rating": 4.7,
+    "reviews": 176,
+    "description": "Swiss quartz movement inside a 38mm brushed steel case. Sapphire crystal glass. Water-resistant to 50m.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=85",
+    "inStock": true,
+    "colors": ["#c0c0c0", "#f5c518", "#0f0f0f"],
+    "variants": [
+      { "label": "Silver", "value": "silver" },
+      { "label": "Gold",   "value": "gold"   },
+      { "label": "Black",  "value": "black"  }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Wireless Earbuds",
+    "category": "Tech",
+    "tag": "Top Rated",
+    "price": 149,
+    "rating": 4.6,
+    "reviews": 504,
+    "description": "36h total battery with ANC. Custom-tuned 11mm drivers. IPX5 rated. Pairs instantly with all your devices.",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=85",
+    "inStock": true,
+    "colors": ["#0f0f0f", "#f5f5f0", "#3B6FE8"],
+    "variants": [
+      { "label": "Black", "value": "black" },
+      { "label": "White", "value": "white" },
+      { "label": "Blue",  "value": "blue"  }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tech Organizer",
+    "category": "Tech",
+    "tag": "Essential",
+    "price": 59,
+    "rating": 4.5,
+    "reviews": 143,
+    "description": "Waxed canvas shell with laser-cut elastic loops. Holds cables, drives, cards, and a portable battery. Lies flat in any bag.",
+    "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=800&q=85",
+    "inStock": true,
+    "colors": ["#4a3728", "#0f0f0f"],
+    "variants": [
+      { "label": "Brown", "value": "brown" },
+      { "label": "Black", "value": "black" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Flow Sneakers",
+    "category": "Apparel",
+    "tag": "Limited",
+    "price": 139,
+    "rating": 4.8,
+    "reviews": 289,
+    "description": "Recycled knit upper on a hand-stitched crepe sole. Breathable, lightweight, and built to outlast five cheaper pairs.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=85",
+    "inStock": true,
+    "colors": ["#f5f5f0", "#0f0f0f", "#e8d5b7"],
+    "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11"],
+    "variants": [
+      { "label": "White / US 9", "value": "white-9" },
+      { "label": "Black / US 9", "value": "black-9" },
+      { "label": "Sand / US 9",  "value": "sand-9"  }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Leather Wallet",
+    "category": "Essentials",
+    "tag": "Classic",
+    "price": 79,
+    "rating": 4.9,
+    "reviews": 392,
+    "description": "Eight-card slim bifold in full-grain leather. Hand-burnished edges. Gets richer with age — like all good things.",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=85",
+    "inStock": true,
+    "colors": ["#4a3728", "#8b7355", "#0f0f0f"],
+    "variants": [
+      { "label": "Dark Brown", "value": "dark-brown" },
+      { "label": "Tan",        "value": "tan"        },
+      { "label": "Black",      "value": "black"      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Travel Bottle",
+    "category": "Essentials",
+    "tag": "Eco",
+    "price": 39,
+    "rating": 4.6,
+    "reviews": 617,
+    "description": "Triple-wall vacuum insulation keeps cold 24h, hot 12h. BPA-free. Fits every cup holder. A bottle worth keeping forever.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&q=85",
+    "inStock": true,
+    "colors": ["#3B6FE8", "#0f0f0f", "#e8d5b7"],
+    "variants": [
+      { "label": "Blue",  "value": "blue"  },
+      { "label": "Black", "value": "black" },
+      { "label": "Sand",  "value": "sand"  }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Linen Overshirt",
+    "category": "Apparel",
+    "tag": "New",
+    "price": 99,
+    "rating": 4.7,
+    "reviews": 88,
+    "description": "Stone-washed European linen in a relaxed, single-button-stand collar. Worn open or closed — equally deliberate.",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=85",
+    "inStock": true,
+    "colors": ["#d4c5a9", "#8b7355", "#0f0f0f"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "variants": [
+      { "label": "Sand / M",  "value": "sand-m"  },
+      { "label": "Tan / M",   "value": "tan-m"   },
+      { "label": "Black / M", "value": "black-m" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Canvas Tote",
+    "category": "Accessories",
+    "tag": "Essential",
+    "price": 49,
+    "rating": 4.5,
+    "reviews": 201,
+    "description": "16oz waxed canvas with brass rivets and a full leather base. Carries everything. Shows nothing.",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800&q=85",
+    "inStock": true,
+    "colors": ["#4a3728", "#0f0f0f", "#e8e6df"],
+    "variants": [
+      { "label": "Brown", "value": "brown" },
+      { "label": "Black", "value": "black" },
+      { "label": "Cream", "value": "cream" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Desk Lamp",
+    "category": "Essentials",
+    "tag": "Design",
+    "price": 119,
+    "rating": 4.8,
+    "reviews": 134,
+    "description": "Warm 2700K light on an articulated arm. Stepless dimmer. Weighted marble base. Designed to outlive trends.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=85",
+    "inStock": true,
+    "colors": ["#0f0f0f", "#c0c0c0", "#f5f0e8"],
+    "variants": [
+      { "label": "Matte Black", "value": "black"  },
+      { "label": "Brushed Steel","value": "steel"  },
+      { "label": "Cream",        "value": "cream"  }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Noise-Cancel Headphones",
+    "category": "Tech",
+    "tag": "Premium",
+    "price": 279,
+    "originalPrice": 329,
+    "rating": 4.9,
+    "reviews": 743,
+    "description": "40mm custom drivers. Hybrid ANC with 30h battery. Foldable aluminium frame. Sound without compromise.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=85",
+    "inStock": true,
+    "colors": ["#0f0f0f", "#c0c0c0", "#3B6FE8"],
+    "variants": [
+      { "label": "Black",  "value": "black"  },
+      { "label": "Silver", "value": "silver" },
+      { "label": "Blue",   "value": "blue"   }
+    ]
+  }
+]
