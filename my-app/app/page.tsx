@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import MarqueeBanner from "./components/MarqueeBanner";
 import { Products, ProductsSkeleton } from "./components/Products";
+import { Testimonials } from "./components/Testimonials";
+import { Banner } from "./components/Banner";
 import { FAQ } from "./components/FAQ";
 import Footer from "./components/Footer";
 
@@ -18,6 +20,12 @@ export default function Home() {
           <Suspense fallback={<ProductsSkeleton />}>
             <Products />
           </Suspense>
+        </section>
+        <section className="snap-section-tall flex flex-col">
+          <Banner />
+        </section>
+        <section className="snap-section-tall flex flex-col">
+          <Testimonials />
         </section>
         <section className="snap-section-tall flex flex-col">
           <FAQ />
