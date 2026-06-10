@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "FlowCart — Objects made to last",
+  title: "FlowCart-Ecommerce",
   description:
     "FlowCart is a quiet edit of everyday essentials — clothing, carry, and tools, made by people who care.",
 };

@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import MarqueeBanner from "./components/MarqueeBanner";
 import { Products, ProductsSkeleton } from "./components/Products";
 import { Testimonials } from "./components/Testimonials";
 import { Banner } from "./components/Banner";
