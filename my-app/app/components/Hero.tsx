@@ -63,6 +63,8 @@ export default function Hero() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (!ref.current) return;
+
     const ctx = gsap.context(() => {
       gsap.from(".hero-eyebrow", {
         y: 14,
@@ -114,20 +116,12 @@ export default function Hero() {
         delay: 0.9,
       });
       gsap.from(".hero-orb", { opacity: 0, duration: 1.6, ease: "power2.out" });
-      gsap.from(".feature-tile", {
-        y: 24,
-        opacity: 0,
-        duration: 0.7,
-        stagger: 0.1,
-        ease: "power3.out",
-        delay: 1.05,
-      });
     }, ref);
     return () => ctx.revert();
   }, []);
 
   return (
-    <section ref={ref} className="relative isolate pt-10 sm:pt-16.5 lg:pt-16.5">
+    <section id="hero" ref={ref} className="relative isolate pt-10 sm:pt-16.5 lg:pt-16.5">
       {/* Ambient orbs (self-contained overflow clip) */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="hero-orb animate-orb absolute -left-48 top-16 h-[500px] w-[500px] rounded-full bg-[#3B6FE8]/10 blur-[130px] sm:-left-52 sm:h-[600px] sm:w-[600px]" />
@@ -147,7 +141,7 @@ export default function Hero() {
             <div className="hero-eyebrow inline-flex items-center gap-2.5 rounded-full border border-[#e0dfd9] bg-white px-4 py-2 shadow-sm">
               <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500" />
               <span className="text-sm text-[#555]">
-                Summer Capsule · Volume 04
+                Summer Collection · Latest Vol.
               </span>
             </div>
             <h1 className="mt-4 overflow-hidden text-[clamp(2rem,7.5vw,6.7rem)] font-black leading-[0.93] tracking-[-0.03em] text-[#0f0f0f] sm:mt-6">
@@ -247,7 +241,7 @@ export default function Hero() {
                 <div className="absolute left-4 top-4 sm:left-5 sm:top-5">
                   <span className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/85 px-3 py-1.5 text-[11px] font-medium text-[#0f0f0f] shadow-sm backdrop-blur-md">
                     <SparkIcon />
-                    New · Volume 04
+                    Imported from Italy
                   </span>
                 </div>
                 <div className="absolute inset-x-3 bottom-3 flex items-end justify-between gap-3 rounded-xl bg-white/90 p-3 shadow-sm backdrop-blur-md sm:inset-x-4 sm:bottom-4 sm:rounded-2xl sm:p-4">

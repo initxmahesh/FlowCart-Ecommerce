@@ -80,7 +80,7 @@ export function FAQ() {
   const [open, setOpen] = useState<number>(0);
 
   return (
-    <section id="faq" className="bg-background py-5 lg:py-5">
+    <section id="faq" className="bg-background py-16 lg:py-20">
       <div className="mx-auto grid max-w-350 grid-cols-1 gap-64 lg:grid-cols-[1fr_2fr] lg:gap-64">
         {/* Left label */}
         <div>

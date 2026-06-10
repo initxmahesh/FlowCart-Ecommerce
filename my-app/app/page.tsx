@@ -12,7 +12,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main id="scroll-root" className="snap-container bg-gradient-to-br from-[#f5f5f0] via-[#f2ede5] to-[#ede4d6]">
+      <main
+        id="scroll-root"
+        className="snap-container bg-gradient-to-br from-[#f5f5f0] via-[#f2ede5] to-[#ede4d6]"
+      >
         <section className="snap-section flex flex-col">
           <Hero />
         </section>
