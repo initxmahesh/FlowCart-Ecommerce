@@ -166,7 +166,7 @@ export default function Hero() {
               and tools, made by people who care deeply about what they make.
             </p>
             
-            <div className="hero-cta mt-2 flex gap-6">
+            <div className="hero-cta mt-3 flex flex-wrap gap-3 sm:gap-6">
               <a
                 href="#products"
                 className="inline-flex items-center gap-2 rounded-full bg-[#0f0f0f] px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-[#2a2a2a] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3B6FE8]"
@@ -196,7 +196,7 @@ export default function Hero() {
                     </span>
                   ))}
                 </div>
-                <div className="hidden h-8 w-px bg-[#e0dfd9] xs:block sm:block" />
+                <div className="hidden h-8 w-px bg-[#e0dfd9] xs:block" />
                 <div>
                   <div className="flex items-center gap-1">
                     {Array.from({ length: 5 }).map((_, i) => (

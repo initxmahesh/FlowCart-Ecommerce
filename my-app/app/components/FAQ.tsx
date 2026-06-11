@@ -41,15 +41,15 @@ function Item({
 }) {
   return (
     <div className="border-b border-foreground/10">
-      <button
+        <button
         onClick={onToggle}
-        className="flex w-full items-center justify-between gap-8 py-3 text-left"
+        className="flex w-full items-center justify-between gap-4 py-3 text-left sm:gap-8"
       >
         <span className="flex items-baseline gap-6">
           <span className="font-mono text-sm tabular-nums text-foreground/40">
             0{i + 1}
           </span>
-          <span className="text-2xl font-medium leading-tight lg:text-2xl">
+          <span className="text-lg font-medium leading-tight sm:text-xl lg:text-2xl">
             {question}
           </span>
         </span>
@@ -81,7 +81,7 @@ export function FAQ() {
 
   return (
     <section id="faq" className="bg-background py-16 lg:py-20">
-      <div className="mx-auto grid max-w-350 grid-cols-1 gap-64 lg:grid-cols-[1fr_2fr] lg:gap-64">
+      <div className="mx-auto grid max-w-350 grid-cols-1 gap-10 px-6 lg:grid-cols-[1fr_2fr] lg:gap-16 lg:px-10">
         {/* Left label */}
         <div>
           <p className="inline-flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-foreground/50">

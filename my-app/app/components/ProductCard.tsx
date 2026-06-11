@@ -82,11 +82,13 @@ export function ProductCard({
           />
         </button>
         <div
-          aria-hidden="true"
           className={[
-            "absolute inset-x-3 bottom-3 flex translate-y-3 gap-2 opacity-0",
+            "product-card-actions absolute inset-x-3 bottom-3 flex gap-2",
+            /* Always visible on mobile/touch, hidden until hover on pointer devices */
+            "opacity-100 translate-y-0",
+            "sm:opacity-0 sm:translate-y-3",
             "transition-all duration-500 ease-out",
-            "group-hover:translate-y-0 group-hover:opacity-100",
+            "sm:group-hover:translate-y-0 sm:group-hover:opacity-100",
           ].join(" ")}
         >
           {/* Quick view */}

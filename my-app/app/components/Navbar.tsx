@@ -130,14 +130,14 @@ export default function Navbar() {
         <div className="flex items-center gap-0.5 sm:gap-1">
           <button
             aria-label="Search"
-            className="hidden h-10 w-10 items-center justify-center rounded-full text-[#0f0f0f] transition-colors hover:bg-black/5 md:inline-flex"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full text-[#0f0f0f] transition-colors hover:bg-black/5"
           >
             <SearchIcon />
           </button>
 
           <button
             aria-label="Wishlist"
-            className="relative hidden h-10 w-10 items-center justify-center rounded-full text-[#0f0f0f] transition-colors hover:bg-black/5 md:inline-flex"
+            className="relative inline-flex h-10 w-10 items-center justify-center rounded-full text-[#0f0f0f] transition-colors hover:bg-black/5"
           >
             <HeartIcon />
             {mounted && wishCount > 0 && (
@@ -182,16 +182,6 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <div className="mt-4 flex items-center gap-2.5 md:hidden">
-            <button className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-[#e0dfd9] bg-white/60 py-2.5 text-sm text-[#3a3a3a] transition-colors hover:border-[#0f0f0f]">
-              <SearchIcon />
-              Search
-            </button>
-            <button className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-[#e0dfd9] bg-white/60 py-2.5 text-sm text-[#3a3a3a] transition-colors hover:border-[#0f0f0f]">
-              <HeartIcon />
-              Wishlist
-            </button>
-          </div>
         </div>
       </div>
     </header>

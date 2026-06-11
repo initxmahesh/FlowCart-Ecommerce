@@ -23,7 +23,7 @@ export function Banner() {
   return (
     <section
       id="campaign"
-      className="relative overflow-hidden bg-surface py-24 lg:py-26"
+      className="relative overflow-hidden bg-surface py-14 sm:py-20 lg:py-24"
     >
       <div aria-hidden className="pointer-events-none absolute inset-0">
         <div className="absolute -top-32 -left-24 h-[520px] w-[520px] rounded-full bg-[#d4b896]/50 blur-3xl" />
@@ -33,7 +33,7 @@ export function Banner() {
       </div>
 
       <div className="relative mx-auto grid max-w-350 grid-cols-1 gap-12 px-6 pb-8 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:px-10 xl:gap-24">
-        <div className="flex min-h-[60vh] flex-col justify-center lg:min-h-[78vh]">
+        <div className="flex flex-col justify-center sm:min-h-[60vh] lg:min-h-[78vh]">
           <div className="mt-0 inline-flex w-fit items-center gap-2 rounded-full border border-accent/20 bg-accent/10 px-4 py-1.5">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60" />
@@ -55,7 +55,7 @@ export function Banner() {
             modern everyday living - sun, salt, motion and the long way home.
           </p>
 
-          <div className="mt-20 flex flex-wrap gap-x-7 gap-y-3 text-xs text-muted-foreground">
+          <div className="mt-8 flex flex-wrap gap-x-7 gap-y-3 text-xs text-muted-foreground sm:mt-12 lg:mt-20">
             {TRUST_ITEMS.map(({ Icon, label }) => (
               <div key={label} className="flex items-center gap-2">
                 <Icon
@@ -68,7 +68,7 @@ export function Banner() {
           </div>
         </div>
 
-        <div className="relative min-h-[60vh] lg:min-h-[70vh]">
+        <div className="relative min-h-[50vw] sm:min-h-[60vh] lg:min-h-[70vh]">
           <div className="relative h-full w-full">
             <div className="absolute right-0 top-0 hidden h-[48%] w-[65%] overflow-hidden rounded-2xl shadow-xl md:block">
               <Image
@@ -95,7 +95,7 @@ export function Banner() {
               <span className="h-1.5 w-1.5 rounded-full bg-success" />
               New Drop · 24 Pieces
             </div>
-            <div className="group absolute -left-18 bottom-2 z-10 w-[200px] cursor-default rounded-xl border border-foreground/10 bg-background/90 p-2 shadow-xl backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+            <div className="group absolute bottom-2 left-2 z-10 w-[200px] cursor-default rounded-xl border border-foreground/10 bg-background/90 p-2 shadow-xl backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl lg:-left-18">
               <div className="flex items-center gap-0.5 text-accent">
                 {STARS.map((_, i) => (
                   <Star
